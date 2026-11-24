@@ -1,0 +1,23 @@
+name: novel_reader
+description: "丹青阅读 · 本地小说阅读器"
+publish_to: 'none'
+version: 1.8.4+12
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  battery_plus: ^6.2.1
+  file_selector: ^1.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sample/
